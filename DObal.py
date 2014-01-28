@@ -19,6 +19,9 @@ br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.
 br.open('https://cloud.digitalocean.com/login')
 
 br.select_form(nr=0)
+
+#Specify your credentials here
+
 br.form['user[email]'] = 'EMAIL_ID'
 br.form['user[password]'] = 'PASSWORD'
 
